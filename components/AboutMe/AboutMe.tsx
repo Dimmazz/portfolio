@@ -4,7 +4,7 @@ import Profile from '../Profile/Profile'
 import ProfileButtons from '../ProfileButtons/ProfileButtons'
 import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher'
 
-import s from './aboutMe.module.scss'
+import s from './AboutMe.module.scss'
 
 const AboutMe = () => {
   return (
