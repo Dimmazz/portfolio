@@ -1,0 +1,77 @@
+// colors
+$color-white: #FFFFFF;
+$color-black: #000000;
+//// PURPLE
+$hue: 250;
+$sat: 66%;
+$lig: 75%;
+
+//// PINK
+// $hue: 356;
+// $sat: 66%;
+// $lig: 75%;
+
+//// BLUE
+// $hue: 207;
+// $sat: 90%;
+// $lig: 61%;
+
+//// TEAL
+// $hue: 174;
+// $sat: 63%;
+// $lig: 62%;
+
+
+// common colors
+$color-primary: hsl($hue, $sat, $lig);
+$color-primary-alt: hsl($hue, $sat, calc($lig - 4%)); // -4 lig
+$text-color-light: hsl($hue, 8%, 75%);
+$text-color-lighten: hsl($hue, 8%, 92%);
+
+$color-hover: rgba($color: $color-primary, $alpha: 0.04);
+$color-focus: rgba($color: $color-primary, $alpha: 0.12);
+$color-disabled: rgba($color: $color-white, $alpha: 0.38);
+
+$default-border: 1px solid rgba($color: $color-white, $alpha: 0.12);
+
+// color for DARK theme (default)
+$dark-theme-title-color: hsl($hue, 12%, 95%);
+$dark-theme-text-color: hsl($hue, 12%, 75%);
+
+$dark-theme-color-bg: hsl($hue, 40%, 8%);
+$dark-theme-color-bg-lighter: hsl($hue, 40%, 12%);
+$dark-theme-color-container: hsl($hue, 24%, 12%);
+
+
+// color for LIGHT theme
+$light-theme-title-color: hsl($hue, 12%, 15%);
+$light-theme-text-color: hsl($hue, 12%, 45%);
+
+$light-theme-color-bg: hsl($hue, 100%, 99%);
+$light-theme-color-container: #fff;
+
+$transition-default: 1.25s cubic-bezier(.2, .6, 0, 1);
+$transition-hover: .25s ease-out;
+
+
+// width screen
+$screen-desktop: 1920px;
+$screen-laptop: 1024px;
+$screen-tablet: 768px;
+$screen-big-mobile: 568px;
+$screen-mobile: 375px;
+
+
+// Font
+$font-main: "Poppins", sans-serif;
+
+
+// fontSize
+$fz-main: 18px;
+$fz-primary: 20px;
+$fz-large: 36px;
+$fz-large-main: 32px;
+$fz-small: 16px;
+$fz-smaller: 14px;
+$fz-h2: 1.5rem;
+$fz-h3: 1.25rem;

@@ -1,0 +1,45 @@
+@import '../../styles/vars';
+
+
+.aboutInfo {
+  display: grid;
+  column-gap: 3rem;
+  justify-content: center;
+  grid-template-columns: repeat(3, max-content);
+  margin-bottom: 2rem;
+
+  @media (max-width: $screen-desktop) {
+    font-size: var(--small-font-size);
+  }
+
+  @media (max-width: $screen-laptop) {
+    column-gap: 1.5rem;
+  }
+}
+
+.aboutInfo__item {
+  min-width: 5rem;
+  max-width: 7rem;
+  text-align: center;
+  // padding: 4px 5px;
+  // border-radius: 8px;
+  // background-color: $dark-theme-color-bg-lighter;
+  // box-shadow: 1px 2px 8px 0 rgba($color: $color-white, $alpha: .075);
+}
+
+// [class="LIGHT"] .aboutInfo__value {}
+
+.aboutInfo__value {
+  color: $dark-theme-title-color;
+  margin-bottom: .25rem;
+  font-size: $fz-main;
+
+  [class="LIGHT"] & {
+    color: $light-theme-text-color;
+  }
+}
+
+.aboutInfo__title {
+  font-weight: 500;
+  font-size: $fz-smaller;
+}

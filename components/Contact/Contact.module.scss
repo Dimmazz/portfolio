@@ -1,0 +1,28 @@
+@import '../../styles/vars';
+
+.contacts__contact {
+  max-width: 332px;
+  display: flex;
+  align-items: center;
+  background-color: $dark-theme-color-container;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.contact__icon {
+  padding-right: .5rem;
+}
+
+.contact__svg {
+  width: 48px;
+  height: 48px;
+  fill: $color-white;
+}
+
+.contact__title {
+  font-weight: 700;
+}
+
+.contact__id {
+  font-weight: 500;
+}

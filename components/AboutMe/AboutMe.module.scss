@@ -1,0 +1,13 @@
+@import '../../styles/vars';
+
+
+.about-me {
+    padding-top: 4rem;
+    max-width: 968px;
+    margin: 0 auto;
+    position: relative;
+
+    @media (max-width: $screen-tablet) {
+        padding-top: 0;
+    }
+}

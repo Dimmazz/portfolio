@@ -1,0 +1,12 @@
+@import '../../styles/vars';
+
+
+.contacts {
+  // display: flex;
+  // flex-wrap: wrap;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 322px);
+  align-items: center;
+  justify-content: center;
+}

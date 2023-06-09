@@ -1,0 +1,46 @@
+@import '../../styles/vars';
+
+
+// .contentViewer {}
+
+.contentViewer__tabs {
+  width: calc(166px * 3);
+  padding: .375rem;
+  border-radius: .75rem;
+  display: flex;
+  justify-content: space-between;
+  gap: .5rem;
+  margin: 3rem auto;
+  background-color: $dark-theme-color-container;
+
+  @media (max-width: $screen-tablet) {
+    width: auto;
+    min-width: 166px;
+    flex-direction: column;
+  }
+}
+
+.contentViewer__tab {
+  width: 100%;
+}
+
+.contentViewer__filter-btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  color: $dark-theme-title-color;
+  background-color: transparent;
+  font-size: $fz-small;
+  font-weight: 500;
+  border-radius: .75rem;
+  transition: background-color $transition-default;
+
+  &:hover {
+    background-color: $dark-theme-color-bg;
+  }
+
+  &--active {
+    background-color: $dark-theme-color-bg;
+  }
+}

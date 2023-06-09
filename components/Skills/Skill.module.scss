@@ -1,0 +1,28 @@
+@import '../../styles/vars';
+
+
+.skills__list-item {
+  display: flex;
+  column-gap: .5rem;
+}
+
+.skills__name {
+  font-size: $fz-main;
+  font-weight: 500;
+  line-height: 18px;
+  color: $dark-theme-title-color;
+  margin-bottom: 0.25rem;
+
+  @media (max-width: $screen-tablet) {
+    font-size: $fz-small;
+  }
+}
+
+.skills__level {
+  font-size: $fz-smaller;
+}
+
+.skills__icon {
+  font-size: 1rem;
+  color: $color-primary;
+}

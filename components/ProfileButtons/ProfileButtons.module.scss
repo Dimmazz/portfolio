@@ -1,0 +1,70 @@
+@import '../../styles/vars';
+
+
+.profileButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+
+  @media (max-width: $screen-laptop) {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}
+
+.profileButtons__button-primary {
+  cursor: pointer;
+  background-color: $color-primary;
+  padding: 1.15rem 1.5rem;
+  border-radius: .5rem;
+  color: $color-white;
+  box-shadow: 0 8px 24px rgba($color: $color-primary, $alpha: .25);
+  transition: background-color $transition-default;
+
+  &:hover {
+    background-color: $color-primary-alt;
+  }
+  
+  @media (max-width: $screen-laptop) {
+    margin-bottom: 0.5rem;
+  }
+
+  // [class="LIGHT"] & {}
+}
+
+.profileButtons__link {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+.profileButtons__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .25rem;
+}
+
+.profileButtons__list-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $fz-primary;
+  background-color: $dark-theme-color-container;
+  padding: .75rem;
+  border-radius: .5rem;
+  color: $dark-theme-title-color;
+  transition: background-color $transition-default;
+
+  &:hover {
+    background-color: hsl($hue, 24%, 16%);
+  }
+
+  // [class="LIGHT"] & {}
+}

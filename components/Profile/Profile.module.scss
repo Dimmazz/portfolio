@@ -1,0 +1,98 @@
+@import '../../styles/vars';
+
+
+.profile {
+  display: grid;
+  text-align: center;
+
+  @media (max-width: $screen-desktop) {
+    padding-top: 4rem;
+  }
+}
+
+.profile__name {
+  font-size: $fz-h2;
+}
+
+.profile__avatar {
+  border: 3.5px solid $color-primary;
+  justify-self: center;
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1rem;
+
+  @media (max-width: $screen-desktop) {
+    width: 135px;
+    height: 135px;
+    margin-bottom: 1rem;
+  }
+}
+
+.avatar__wrapper {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(180deg, hsla($hue, $sat, $lig, 1) 0%, hsla($hue, $sat, $lig, .2) 100%);
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: $screen-desktop) {
+    width: 120px;
+    height: 120px;
+
+    & img {
+      width: 90px;
+    }
+  }
+}
+
+.avatar__img {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.profile__aka,
+.profile__profession {
+  font-size: $fz-small;
+  font-weight: 500;
+  color: $dark-theme-text-color;
+}
+
+.profile__aka {
+  margin-bottom: 1.5rem;
+}
+
+.profile__profession {
+
+  margin-bottom: 0.02rem;
+}
+
+.profile__social {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.72rem;
+  margin-bottom: 2rem;
+}
+
+.social__item {
+  font-size: 1.25rem;
+  color: $dark-theme-title-color;
+  transition: color $transition-hover;
+
+  &:hover {
+    color: $color-primary;
+  }
+
+  @media (max-width: $screen-tablet) {
+    font-size: 1.75rem;
+  }
+}
+
+// .social__link {}
+
+// .social__icon {}

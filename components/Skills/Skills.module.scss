@@ -1,0 +1,45 @@
+@import '../../styles/vars';
+
+
+.skills {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+
+  @media (max-width: $screen-tablet) {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+}
+
+.skills__group {
+  width: 332px;
+}
+
+.skills__group-title {
+  font-size: $fz-main;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: $dark-theme-title-color;
+}
+
+.skills__list {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+  // flex-wrap: wrap;
+
+  @media (max-width: $screen-tablet) {
+    column-gap: 2rem;
+  }
+
+  @media (max-width: $screen-big-mobile) {
+    column-gap: 1.5rem;
+  }
+}
+
+.skills__column {
+  display: grid;
+  align-content: flex-start;
+  gap: 1rem;
+}
