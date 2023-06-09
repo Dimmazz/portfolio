@@ -6,7 +6,12 @@ const ProfileButtons = () => {
   return (
     <section className={s['profileButtons']}>
       <div className={s['profileButtons__button-primary']}>
-        <a className={s['profileButtons__link']} href="http://" target="_blank" rel="noopener noreferrer">
+        <a
+          className={s['profileButtons__link']}
+          href="https://t.me/MazuCaringSoul"
+          // target="_blank"
+          // rel="noopener noreferrer"
+        >
           Write to Telegram
           <i className="ri-telegram-fill" />
         </a>
