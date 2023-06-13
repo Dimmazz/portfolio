@@ -4,6 +4,7 @@ import Marico from '../public/img/projects/marico.webp'
 import Books from '../public/img/projects/books.webp'
 import Speak from '../public/img/projects/speak.webp'
 import Course from '../public/img/projects/course-pc.webp'
+import Calc from '../public/img/projects/calc.webp'
 import Empty from '../public/img/projects/empty.webp'
 
 
@@ -44,6 +45,20 @@ const projects = [
     codeLink: 'https://github.com/Dimmazz/books-app',
   },
   {
+    img: Course,
+    category: 'Next app',
+    title: 'Course PC',
+    viewLink: 'http://course-pc.vercel.app/',
+    codeLink: 'https://github.com/Dimmazz/course-pc',
+  },
+  {
+    img: Calc,
+    category: 'React App',
+    title: 'Calculator',
+    viewLink: 'https://calc-brown.vercel.app',
+    codeLink: 'https://github.com/Dimmazz/calc',
+  },
+  {
     img: Empty,
     category: 'JavaScript app',
     title: 'Password Generator',
@@ -63,13 +78,6 @@ const projects = [
     title: 'Markdown Editor',
     viewLink: 'https://dimmazz.github.io/electron-markdown-editor/',
     codeLink: 'https://github.com/Dimmazz/electron-markdown-editor',
-  },
-  {
-    img: Course,
-    category: 'Next app',
-    title: 'Course PC',
-    viewLink: 'http://course-pc.vercel.app/',
-    codeLink: 'https://github.com/Dimmazz/course-pc',
   },
 ]
 
