@@ -1,11 +1,12 @@
 import RyanWarner from '../public/img/projects/ryan-warner.webp'
 import Polar from '../public/img/projects/polar.webp'
 import Marico from '../public/img/projects/marico.webp'
-import Books from '../public/img/projects/books.webp'
 import Speak from '../public/img/projects/speak.webp'
 import Course from '../public/img/projects/course-pc.webp'
-import Calc from '../public/img/projects/calc.webp'
 import Empty from '../public/img/projects/empty.webp'
+import Porten from '../public/img/projects/porten.webp'
+import Infinizai from '../public/img/projects/infinizai.webp'
+import GlamGoGang from '../public/img/projects/glam-go-gang.webp'
 
 
 const projects = [
@@ -13,14 +14,35 @@ const projects = [
     img: RyanWarner,
     category: 'HTML',
     title: 'Ryan Warner',
-    viewLink: 'https://dimmazz.github.io/portfolio/Ryan.Warner/',
-    codeLink: 'https://github.com/Dimmazz/portfolio/tree/master/Ryan.Warner',
+    viewLink: 'https://dimmazz.github.io/oldportfolio/Ryan.Warner/',
+    codeLink: 'https://github.com/Dimmazz/oldportfolio/tree/master/Ryan.Warner',
+  },
+  {
+    img: GlamGoGang,
+    category: 'HTML',
+    title: 'Glam Go Gang',
+    viewLink: 'https://dimmazz.github.io/glam-go-gang-react/',
+    codeLink: 'https://github.com/Dimmazz/glam-go-gang-react',
+  },
+  {
+    img: Infinizai,
+    category: 'HTML',
+    title: 'Infinizai',
+    viewLink: 'https://dimmazz.github.io/oldportfolio/infinizai/',
+    codeLink: 'https://github.com/Dimmazz/oldportfolio/tree/master/infinizai',
+  },
+  {
+    img: Porten,
+    category: 'HTML + SCSS',
+    title: 'Porten',
+    viewLink: 'https://dimmazz.github.io/Porten/',
+    codeLink: 'https://github.com/Dimmazz/Porten',
   },
   {
     img: Polar,
     category: 'HTML',
     title: 'Polar',
-    viewLink: 'https://dimmazz.github.io/portfolio/polar-project/',
+    viewLink: 'https://dimmazz.github.io/oldportfolio/polar-project/',
     codeLink: 'https://github.com/Dimmazz/portfolio/tree/master/polar-project',
   },
   {
@@ -38,39 +60,11 @@ const projects = [
     codeLink: 'https://github.com/Dimmazz/speak',
   },
   {
-    img: Books,
-    category: 'React App (with Redux)',
-    title: 'Books (Google Book API)',
-    viewLink: 'https://books-app-opal.vercel.app/',
-    codeLink: 'https://github.com/Dimmazz/books-app',
-  },
-  {
     img: Course,
     category: 'Next app',
     title: 'Course PC',
     viewLink: 'http://course-pc.vercel.app/',
     codeLink: 'https://github.com/Dimmazz/course-pc',
-  },
-  {
-    img: Calc,
-    category: 'React App',
-    title: 'Calculator',
-    viewLink: 'https://calc-brown.vercel.app',
-    codeLink: 'https://github.com/Dimmazz/calc',
-  },
-  {
-    img: Empty,
-    category: 'JavaScript app',
-    title: 'Password Generator',
-    viewLink: 'https://dimmazz.github.io/password-generator/',
-    codeLink: 'https://github.com/Dimmazz/password-generator',
-  },
-  {
-    img: Empty,
-    category: 'JavaScript app',
-    title: 'Todo app',
-    viewLink: 'https://dimmazz.github.io/todo-app/',
-    codeLink: 'https://github.com/Dimmazz/todo-app',
   },
   {
     img: Empty,
